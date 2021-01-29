@@ -1,0 +1,23 @@
+[INFO] [ConfigHandler] [29/04/2019 11:29:54 AM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 11:29:54 AM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 11:29:54 AM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [29/04/2019 11:29:54 AM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [29/04/2019 11:29:54 AM]: (ConnectToDatabase) Connecting to MySQL Database (root@localhost:3306)
+[SUCCESS] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ConnectToDatabase) Connection Succeeded
+[INFO] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:55 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [29/04/2019 11:29:56 AM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[SUCCESS] [DatabaseHandler] [29/04/2019 11:29:56 AM]: (PerformBasicTests) All tests succeeded.
+[INFO] [LoginForm] [29/04/2019 11:30:03 AM]: (btnLogin_Click) ben.vernazza@nazzer.dev has logged in.
+[INFO] [UserObject] [29/04/2019 11:30:03 AM]: (.ctor) Constructing a new UserObject

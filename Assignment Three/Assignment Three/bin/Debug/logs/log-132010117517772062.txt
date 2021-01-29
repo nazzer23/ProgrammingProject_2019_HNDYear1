@@ -1,0 +1,26 @@
+[INFO] [ConfigHandler] [29/04/2019 12:42:32 PM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 12:42:32 PM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 12:42:32 PM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [29/04/2019 12:42:32 PM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [29/04/2019 12:42:32 PM]: (ConnectToDatabase) Connecting to MySQL Database (root@localhost:3306)
+[SUCCESS] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ConnectToDatabase) Connection Succeeded
+[INFO] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:33 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [29/04/2019 12:42:34 PM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[SUCCESS] [DatabaseHandler] [29/04/2019 12:42:34 PM]: (PerformBasicTests) All tests succeeded.
+[INFO] [LoginForm] [29/04/2019 12:42:41 PM]: (btnLogin_Click) ben.vernazza@nazzer.dev has logged in.
+[INFO] [UserObject] [29/04/2019 12:42:41 PM]: (.ctor) Constructing a new UserObject
+[INFO] [Core] [29/04/2019 12:43:07 PM]: (ShutdownEvent) Event Triggered closing of application.
+[INFO] [DatabaseHandler] [29/04/2019 12:43:07 PM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [29/04/2019 12:43:07 PM]: (Shutdown) DatabaseHandler has been shutdown

@@ -1,0 +1,14 @@
+[INFO] [ConfigHandler] [07/05/2019 08:11:27 AM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [07/05/2019 08:11:27 AM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [07/05/2019 08:11:27 AM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [07/05/2019 08:11:27 AM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (AddConnectionStringValue) Key -> password; Value -> root;
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [07/05/2019 08:11:27 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[ERROR] [Core] [07/05/2019 08:11:28 AM]: (Error) Unable to connect to any of the specified MySQL hosts.
+[INFO] [DatabaseHandler] [07/05/2019 08:11:31 AM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [07/05/2019 08:11:31 AM]: (Shutdown) DatabaseHandler has been shutdown

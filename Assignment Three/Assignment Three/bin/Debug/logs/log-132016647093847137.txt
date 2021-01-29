@@ -1,0 +1,45 @@
+[INFO] [ConfigHandler] [07/05/2019 02:05:09 AM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [07/05/2019 02:05:09 AM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [07/05/2019 02:05:09 AM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [07/05/2019 02:05:09 AM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (AddConnectionStringValue) Key -> password; Value -> root;
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:09 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:10 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [07/05/2019 02:05:11 AM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[SUCCESS] [DatabaseHandler] [07/05/2019 02:05:11 AM]: (PerformBasicTests) All tests succeeded.
+[INFO] [AuthorObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new AuthorObject
+[INFO] [AuthorObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new AuthorObject
+[INFO] [AuthorObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new AuthorObject
+[INFO] [AuthorObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new AuthorObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [ProductObject] [07/05/2019 02:05:11 AM]: (.ctor) Constructing a new ProductObject
+[INFO] [UserObject] [07/05/2019 02:05:16 AM]: (.ctor) Constructing a new UserObject
+[WARNING] [ProductObject] [07/05/2019 02:05:16 AM]: (GetInt) ProductObject 'GetInt' Exception - Specified cast is not valid.
+[WARNING] [ProductObject] [07/05/2019 02:05:16 AM]: (GetInt) ProductObject 'GetInt' Exception - Specified cast is not valid.
+[INFO] [LoginForm] [07/05/2019 02:05:16 AM]: (btnLogin_Click) ben.vernazza@nazzer.dev has logged in.
+[INFO] [Core] [07/05/2019 02:05:26 AM]: (ShutdownEvent) Event Triggered closing of application.
+[INFO] [DatabaseHandler] [07/05/2019 02:05:26 AM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [07/05/2019 02:05:26 AM]: (Shutdown) DatabaseHandler has been shutdown

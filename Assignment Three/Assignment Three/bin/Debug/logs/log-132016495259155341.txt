@@ -1,0 +1,10 @@
+[INFO] [ConfigHandler] [06/05/2019 09:52:06 PM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:52:06 PM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:52:06 PM]: (Init) ConfigHandler initialized
+[INFO] [DatabaseHandler] [06/05/2019 09:52:06 PM]: (PerformBasicTests) Performing Database Tests.
+[SUCCESS] [DatabaseHandler] [06/05/2019 09:52:07 PM]: (PerformBasicTests) All tests succeeded.
+[INFO] [LoginForm] [06/05/2019 09:52:24 PM]: (btnLogin_Click) ben.vernazza@nazzer.dev has logged in.
+[INFO] [UserObject] [06/05/2019 09:52:24 PM]: (.ctor) Constructing a new UserObject
+[INFO] [Core] [06/05/2019 09:52:27 PM]: (ShutdownEvent) Event Triggered closing of application.
+[INFO] [DatabaseHandler] [06/05/2019 09:52:27 PM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [06/05/2019 09:52:27 PM]: (Shutdown) DatabaseHandler has been shutdown

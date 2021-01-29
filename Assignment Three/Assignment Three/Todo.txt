@@ -1,0 +1,18 @@
+﻿Init ->
+	[DONE] Show Splash
+
+		[DONE] Read Config File
+
+		[Done] ProgressBar and Label
+
+		[Done]Initiate Connection to Database
+			True:
+				Continue;
+			False:
+				[Done] Program Exit
+	
+	[Done] Close Splash
+
+	Prompt Staff User Login
+		While Logged:
+			Display Main Menu

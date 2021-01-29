@@ -1,0 +1,14 @@
+[INFO] [ConfigHandler] [06/05/2019 09:28:59 PM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:28:59 PM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:28:59 PM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [06/05/2019 09:28:59 PM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [06/05/2019 09:28:59 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[ERROR] [Core] [06/05/2019 09:28:59 PM]: (Error) Database Connection failed. Please contact the system administrator.
+[INFO] [DatabaseHandler] [06/05/2019 09:29:01 PM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [06/05/2019 09:29:01 PM]: (Shutdown) DatabaseHandler has been shutdown

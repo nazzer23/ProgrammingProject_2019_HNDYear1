@@ -1,0 +1,11 @@
+[INFO] [ConfigHandler] [06/05/2019 09:27:53 PM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:27:53 PM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [06/05/2019 09:27:53 PM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [06/05/2019 09:27:53 PM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [06/05/2019 09:27:54 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)

@@ -1,0 +1,44 @@
+[INFO] [ConfigHandler] [29/04/2019 10:34:08 PM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 10:34:08 PM]: (Init) Found Configuration File 'conf/config.conf'
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 0/2
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 1/3
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 2/4
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 3/5
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 4/6
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 5/7
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 6/8
+[INFO] [Splash] [29/04/2019 10:34:08 PM]: (UpdateProgress) 7/9
+[INFO] [Splash] [29/04/2019 10:34:09 PM]: (UpdateProgress) 8/10
+[INFO] [Splash] [29/04/2019 10:34:09 PM]: (UpdateProgress) 9/11
+[SUCCESS] [ConfigHandler] [29/04/2019 10:34:09 PM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [29/04/2019 10:34:09 PM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[INFO] [Splash] [29/04/2019 10:34:09 PM]: (UpdateProgress) 10/11
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [29/04/2019 10:34:09 PM]: (ConnectToDatabase) Connecting to MySQL Database (root@localhost:3306)
+[SUCCESS] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ConnectToDatabase) Connection Succeeded
+[INFO] [Splash] [29/04/2019 10:34:10 PM]: (UpdateProgress) 11/14
+[INFO] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[INFO] [Splash] [29/04/2019 10:34:10 PM]: (UpdateProgress) 12/16
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[INFO] [Splash] [29/04/2019 10:34:10 PM]: (UpdateProgress) 13/17
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[INFO] [Splash] [29/04/2019 10:34:10 PM]: (UpdateProgress) 14/18
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:10 PM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [29/04/2019 10:34:11 PM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[INFO] [Splash] [29/04/2019 10:34:11 PM]: (UpdateProgress) 15/19
+[SUCCESS] [DatabaseHandler] [29/04/2019 10:34:11 PM]: (PerformBasicTests) All tests succeeded.
+[INFO] [Splash] [29/04/2019 10:34:11 PM]: (UpdateProgress) 16/19
+[INFO] [Splash] [29/04/2019 10:34:11 PM]: (UpdateProgress) 17/19
+[INFO] [Splash] [29/04/2019 10:34:11 PM]: (UpdateProgress) 18/19
+[INFO] [Splash] [29/04/2019 10:34:11 PM]: (UpdateProgress) 19/19
+[INFO] [Core] [29/04/2019 10:34:59 PM]: (ShutdownEvent) Event Triggered closing of application.
+[INFO] [DatabaseHandler] [29/04/2019 10:34:59 PM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [29/04/2019 10:34:59 PM]: (Shutdown) DatabaseHandler has been shutdown

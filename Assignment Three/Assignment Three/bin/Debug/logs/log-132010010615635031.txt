@@ -1,0 +1,24 @@
+[INFO] [ConfigHandler] [29/04/2019 09:44:21 AM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 09:44:22 AM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [29/04/2019 09:44:22 AM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [29/04/2019 09:44:22 AM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [29/04/2019 09:44:22 AM]: (ConnectToDatabase) Connecting to MySQL Database (root@localhost:3306)
+[SUCCESS] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ConnectToDatabase) Connection Succeeded
+[INFO] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:23 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:24 AM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[DEBUG] [DatabaseHandler] [29/04/2019 09:44:24 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM failme;)
+[ERROR] [Core] [29/04/2019 09:44:24 AM]: (Error) [Test] There was an error when executing the test queries. Error:Table 'store.failme' doesn't exist
+[INFO] [DatabaseHandler] [29/04/2019 09:44:42 AM]: (Shutdown) Shutting down DatabaseHandler gracefully
+[INFO] [DatabaseHandler] [29/04/2019 09:44:42 AM]: (Shutdown) DatabaseHandler has been shutdown

@@ -1,0 +1,21 @@
+[INFO] [ConfigHandler] [27/04/2019 01:03:52 AM]: (Init) Loading Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [27/04/2019 01:03:52 AM]: (Init) Found Configuration File 'conf/config.conf'
+[SUCCESS] [ConfigHandler] [27/04/2019 01:03:52 AM]: (Init) ConfigHandler initialized
+[DEBUG] [ConfigHandler] [27/04/2019 01:03:52 AM]: (Init) ConfigHandler initialized with 6 KeyPairs.
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:52 AM]: (AddConnectionStringValue) Key -> server; Value -> localhost;
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:52 AM]: (AddConnectionStringValue) Key -> database; Value -> store;
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:52 AM]: (AddConnectionStringValue) Key -> uid; Value -> root;
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:52 AM]: (AddConnectionStringValue) Key -> password; Value -> ;
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:52 AM]: (AddConnectionStringValue) Key -> port; Value -> 3306;
+[INFO] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ConnectToDatabase) Connecting to MySQL Database (root@localhost:3306)
+[SUCCESS] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ConnectToDatabase) Connection Succeeded
+[INFO] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (PerformBasicTests) Performing Database Tests.
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM authors;)
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] (SELECT * FROM authors;) Succeeded
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM books;)
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] (SELECT * FROM books;) Succeeded
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM customers;)
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] (SELECT * FROM customers;) Succeeded
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:53 AM]: (ExecuteTest) [Test] Performing test (SELECT * FROM sales;)
+[DEBUG] [DatabaseHandler] [27/04/2019 01:03:54 AM]: (ExecuteTest) [Test] (SELECT * FROM sales;) Succeeded
+[SUCCESS] [DatabaseHandler] [27/04/2019 01:03:54 AM]: (PerformBasicTests) All tests succeeded.
